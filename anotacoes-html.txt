@@ -1,0 +1,474 @@
+			:: HTML ::
+
+HTML é a linguagem que usamos para criar. Ela não se atenta ao design da página, apenas em como ela é estruturada
+
+HIPERTEXTO: Textos que se conectam a outros textos
+
+H yper
+T ext              *Linguagem de marcação de hipertexto*
+M arkup
+L anguage
+
+<x>: Abertura
+</x>: Fechamento
+
+Com HTML é possível criar títulos, parágrafos, imagens, links, etc, que compõe o conteúdo de uma página
+
+ELEMENTOS: Ou tags - Blocos de construção fundamentais para a criação de páginas web. Delimitados por "<>" (Fornecem a estrutura e o significado para o conteúdo exibido no navegador
+
+<p>: Parágrafo
+<h1>-<h6>: Títulos e subtítulos
+<a>: Links
+<img>: Imagens
+
+FERRAMENTAS DO PROGRAMADOR:
+* Visual Studio Code: Editor de texto para escrever os códigos
+* Microsoft Edge: Para testar os códigos
+* Photoshop: Trabalhar imagens e gráficos
+* GIT: Sistema de controle de versão, para gerenciar arquivos nos servidores
+* GITHUB: Hospedagem
+* GRUNT: Sistema de automação para realizar tarefas repetitivas, minificar código e executar testes
+
+Um site consiste de muitos arquivos: texto, código, folhas de estilo, conteúdo em mídia, etc. Criando site você reúne, estrutura, certifica que eles se comunicam e envia para o servidor
+
+Quando você está trabalhando em um site localmente em seu computador, todos os arquivos relacionados ao site devem ser mantidos na mesma pasta
+1- Crie uma pasta "projetos-web"
+2- Crie as pastas dentro dessa pasta principal
+
+As letras são minúsculas e sem espaço por que:
+1- Qualquer erro de letra maiúscula não irá funcionar
+2- Navegadores, serviços web e linguagem de programação não lidam muito bem com espaços. Geralmente eles quebram o espaço e substituem por "%20"
+
+* index.html: Conteúdo da sua página (Cria-se o arquivo dentro da pasta designada para o site)
+* imagens: Pasta contendo todas as imagens do site
+* estilos: Códigos CSS (Para dar estilo ao conteúdo)
+* scripts: Códigos JavaScript (Para funcionalidades interativas) 
+
+HTML é uma linguagem de marcação. Para marcar utilizamos TAGS
+
+
+ATRIBUTOS:
+São recursos adicionais que podem ser incluídos dentro das TAGS para fornecer informações extras ou controlar o comportamento dos elementos. Eles modificam características ou propriedades
+São separados pelo sinal de "="
+
+<a href="sobre.html" title="Sobre nós">Sobre nós</a>
+
+O nome do atributo especifica qual propriedade do elemento está sendo modificada e o valor define o conteúdo/comportamento
+
+<TagDeAbertura Atributo="ValorDoAtributo">Conteúdo</TagDeFechamento>
+
+<img src="caminho/para/imagem.jpg" alt="Texto alternativo da imagem"/>
+Na TAG img o atributo src especifica a localização da imagem e o alt fornece um texto alternativo caso a imagem não abra
+
+Algumas TAGS possuem fechamento próprio e não envolvem conteudo. Um exemplo é a "img"
+
+**********Nem todos os atributos são aplicáveis. Cada elemento tem seu atributo especifico e é necessario consultar a documentacao para saber**********
+
+
+<ul> e <li> = Criar listas nao ordenadas
+<ul> = Tag da lista nao ordenada
+<li> = Item da lista
+<ol> = Listas ordenadas
+
+<ul>
+<li>Primeiro item da lista</li>
+</ul>
+
+***<ol> aparece itens com numeros
+<ul> aparece itens com um pontinho preto***
+
+
+<table>,<tr>,<td> = Criar tabelas
+<table> = Define a tabela
+<tr> = Define uma linha na tabela
+<td> = Define uma celula dentro da tabela
+
+<table>
+<tr>
+<td>Fruta</td>
+<td>Cor</td>
+</tr>
+<tr>
+<td>Maça</td>
+<td>Vermelha</td>
+</tr>
+</table>
+
+Fruta	Cor
+Maça	Vermelha
+
+
+
+<!DOCTYPE html> - Está presente no topo de um documento HTML. Antigamente informava a versão do HTML, com isso a página considerava um STANDARDS MODE (Seguir os padroes) e fazia a pagína aparecer
+
+<html> é o elemento raíz (pai)
+
+É muito importante especificar a linguagem da página com o atributo "lang", pois dá dicas aos mecanismos de buscas e ajuda na acessibilidade para deficientes
+
+<head> é o cabeçalho da pagina (nao aparecem na pagina, sao metadados)
+A tag head é uma seção importante do documento HTML e é utilizada para fornecer informações e metadados sobre o documento, como o título da página, a codificação do caractere, o estilo CSS, entre outros
+
+<body> é o corpo (tudo que aparece na pagina)
+
+meta charset="utf-8" é padrão de uso em arquivos HTML
+
+<head> pode colocar links, adicionar estilos, JavaScript, CSS
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Meu Site</title>
+</head>
+<body>
+<h1>Olá, Kenzie!</h1>
+</body>
+</html>
+
+
+<!-- Comentários HTML --> = Comentários:
+* Ajudar a explicar algum proprosito no codigo
+* Fazer anotacoes e lembretes
+* Comentar secoes do codigo que precisam de revisao/modificacao
+(Nao usar em excesso para nao atrapalhar a legibilidade do codigo)
+
+
+<body> = Corpo
+<header> = Cabeçalho
+<nav> = Navegacao			Podemos estilizar com o CSS
+<main> = Conteudo principal
+<footer> = Rodape
+
+<article> = Artigo
+<section> = Secao generica contida no documento HTML
+<p> = Paragrafo
+<audio> = Embutir som 
+<canvas> = Graficos
+<datalist> = Opcoes possiveis
+<details> = Informacoes adicionais
+<embed> = Conteudo externo
+<output> = Injetar resultados de um calculo ou resultado de uma acao
+<progress> = Visualizar progresso da tarefa
+<video> = incorporar video
+
+<em> = Enfase (Italico)
+<strong> = Forca (Negrito)
+<cite> = Italico, dando para estilizar no CSS
+<i> = Italico por si so
+<b> = Negrito por si so
+<pre> = Para textos pre-formatados (da forma que escrever sera mostrado)
+<br> = Quebra de linha
+
+
+<a> = Linka o texto com algo interno ou externo
+
+<a href="https://www.google.com.br">Clique aqui!</a>
+
+Neste exemplo irá aparecer o Clique aqui como link e enviara a pessoa para o site do Google
+
+
+"   " (Espaço em branco) = &nbsp;
+< = &lt;
+> = &gt;
+" = &quot;
+© = &copy;
+& = &amp;
+
+
+
+***PARA INSERIR COMENTÁRIO NO HTML UTILIZE <!-- OU 'CTRL+;'***
+
+***PARA QUEBRA AUTOMÁTICA DE LINHA UTILIZA 'ALT+Z'***
+
+
+
+Tudo que nós colocamos na head é usado para serviços de busca
+
+- Title > Título: É o título do campo de pesquisa
+
+- Description > Descrição: É o texto que consta abaixo do do título
+
+
+
+href = colocar uma referencia externa
+
+target="_blank" = abrir o link em nova aba (sem opção para o usuário abrir de outra forma)
+
+img sempre vai usar o src para indicar onde é e o alt que é um texto caso a imagem não abra ou para pessoas com deficiencia
+
+
+
+ATRIBUTO BOLEANO:
+
+reversed = Usado nas listas para ela ser revertida na ordem, usamos:
+
+reversed="true"
+
+
+Dá pra alinhar as listas, pegando o código de uma e inserindo dentro de outra.
+
+
+
+Hiperlink interno: 
+
+Utiliza-se o # e o id=""
+
+Precisa colocar na linha a ser utilizada o id="" para poder informar ele no href="#"
+
+
+
+#top = usado para ir para o topo da página
+
+
+
+<img src="url da imagem"> (nao tem fechamento)
+alt="alternativa textual" (caso imagem nao abra)
+
+<img src="url da imagem decorativa" - nesse caso o alt pode ficar vazio pois nao é uma imagem importante, é apenas decoracao. Quem nao ver nao vai ficar sabendo que ela existia.
+
+ALT É OBRIGATORIO
+
+Podemos inclusive determinar o tamanho da imagem:
+
+<img src="imagem.png" WIDTH="600" HEIGHT="600"> (enquanto a imagem carrega podemos ver o tamanho dela na tela, ficando um quadrante)
+
+
+
+TAGS SEMANTICAS:
+
+<article> = artigo, trecho onde tem a sensacao que é estruturado como artigo voce envolve essa situacao
+
+<aside> = barra lateral, nao faz parte do fluxo principal do texto
+
+<section> = secao, define topicos
+
+<nav> = navegacao, define menu de navegacoes
+
+<figure> = figura, imagens dentro de tag
+
+<footer> = rodape, direitos autorais, contatos, cnpj, etc
+
+<header> = parte inicial do documento, cabecalho, armazena o menu de navegacao tambem
+
+<main> = importancia, conteudo principal e mais importante, so se usa uma vez dentro do documento
+
+EXEMPLO PRATICO em tags-semanticas/index.html
+
+Ajuda tambem com acessibilidade
+
+<div> = separar conteudos
+
+menu = nav
+area em evidencia = header
+secao 1 = section
+secao 2 = section
+rodape = footer
+anuncio = aside
+
+figure = usado sempre antes de colocar uma imagem, fica dentro dela
+
+figcaption = informa o que é a imagem, escreve abaixo dela
+
+Quem vai programar o botão para a funcionalidade dele é o JavaScript
+
+
+
+**********developer.mozillla.org = PARA SABER MAIS SOBRE TODAS AS TAGS SEMANTICAS**********
+
+Para colocar uma imagem salva do seu pc ela precisa estar na mesma pasta que o arquivo index.html
+
+
+
+
+:: FORMULARIOS ::
+
+Quando temos em um site o campo de pesquisa, ele é feito atraves de formularios
+
+Utilizado tambem para fazer login e se cadastrar
+
+Qualquer campo de entrada de texto, opções
+
+Um chat é considerado um formulario
+
+<FORM action=""></form>
+
+Maioria dos sites hoje em dia usam formularios, podendo solicitar informacoes de usuarios, trata-las de alguma maneira e enviar para o back-end
+
+<form></form> = O navegador ira indicar os campos presentes e dara valores que serao postariormente enviados para algum servidor
+
+
+Apos a form temos algumas opcoes:
+
+* input: Campo de texto, numero, data, arqvuivos, url, delimitadores, cores, etc
+
+* select: Campo de opçoes
+
+* textarea: Campo para textos longos e formatacao
+
+
+INPUT (usando o type):
+
+button
+checkbox
+color
+date
+datetime-local
+email
+file
+hidden
+image
+month
+number
+range
+password
+radio
+text <input type="text" placeholder="Digite seu texto"/>
+
+
+Para aparecer dentro do campo o que é determinado campo usamos o 'placeholder=""'
+
+Para determinar a quantidade maxima de teclas no campo usamos o 'maxlenght=""'
+
+
+Para confirmacao de senha usamos os labels
+
+<form>
+<label for="senha">Senha</label>
+<input type="password" id="senha" placeholder="Digite sua senha aqui"/>
+
+<label for="senhaconfirmar">Confirmar senha</label>
+<input type="password" id="senhaconfirmar" placeholder="Digite sua senha novamente aqui"/>
+</form>
+
+FOR = Para qual
+
+Mas para ter dados para enviar para algum servidor ainda é necessario colocar o 'form'
+
+
+Quando colocamos um 'button' dentro de um formulario ele vai tentar enviar esses dados
+
+<button type="submit">Cadastrar</button>
+
+Para colocarmos o campo de nome usamos o 'name="nome"'
+
+<label for="password">Nome</label>
+<input type="password" id="password" name="password" placeholder="Digite seu nome aqui"/>
+
+Ele envia no campo URL a informaçao nome e senha, ate o momento isso é muito perigoso, mas de inicio é isso
+
+required="true" = Com isso avisamos que tem algum campo vazio e nao envia os dados
+
+***'ID' É USADO PARA FAZER REFERENCIA AO LABEL***
+***'NAME' É USADO PARA FAZER REFERENCIA PARA O INPUT***
+
+Principal atributo da input é o type, com ele passaremos um valor para especificar o tipo do nosso input
+
+<input type="submit"/> = Envia os dados para algum servidor
+
+
+O <label> é o identificador, recebe um atributo (for) que deve ter o mesmo nome do identificador do input (id)
+
+Usamos o FOR no <label>
+Usamos o ID no <input>
+
+o 'name' envia para o navegador a informacao do campo
+Aparece 'index.html/nome=joao'
+
+
+INPUT RADIO:
+
+<input type="radio"> = serve para dar opçoes ao usuario escolher
+
+
+Para fazer com que a opção selecionada seja uma só teremos que usar novamente o input name, e deixar todos eles com o mesmo name
+
+<input type="radio" name="metododecontato" value="">
+<input type="radio" name="metododecontato" value="">
+
+***CTRL+D com textos igual selecionados ele consegue adicionar ao mesmo tempo a informaçao em todas as linhas***
+
+O VALUE é muito importante para passar a informação correta no navegador, somente com o ID ele nao consegue enviar o dado CAMPO+INFORMACAO
+
+Adicionando o REQUIRED dentro do codigo ele faz com que seja obritario selecionar alguma opcao
+
+
+tag <span> não tem peso semantico, posso estilizar e organizar ela, somente para marcar o texto
+<span style="color: red;"></span>
+
+FIELDSET = OS INPUTS VAO DENTRO DELA, agrupa os elementos do formulario, É A BORDA
+
+LEGEND = Título do formulário
+
+label = rotulo do input, NOME ANTES DA CAIXA DE FORMULARIO
+
+INPUT NÃO TEM FECHAMENTO </>
+
+PLACEHOLDER - TEXTO DENTRO DA CAIXA DE FORMULARIO
+
+******FOR LINKA COM O INPUT******
+
+PASS = Senha
+
+SEMPRE QUE USAR O SELECT É PRECISO USAR A OPTION (FILHO)
+
+TEXTAREA = PARECIDO COM INPUT (PARA PESSOA ESCREVER)
+COLS = COLUNAS
+ROWS = LINHAS
+
+**********NAME = IMPORTANTE PARA ENVIAR OS DADOS DO FORMULARIO, SEM ELE ELE NAO ENVIA NADA!!!*********
+
+
+
+SELECT:
+
+Cria um grupo de opçoes para usuario escolher a opcao que deseja (aquela abinha onde mostra a opçao pra pessoa escolher)
+
+Para fazer ele funcionar usamos o 'option', ele quem dara as opcoes para a pessoa escolher
+
+O value da option serve para enviar o valor do value para o servidor, preenchendo o valor do value usamos fora do option o salect name
+
+<form>
+<select name="plano">
+<option value="">Escolher Plano</option>
+<option value="Free"</option>
+<option value=Premium</option>
+
+Com o select name ele envia para o servidor o plano+uma das duas alternativas
+
+
+<label for="planos">Planos</label>
+<select id="planos" name=plano required>
+	<option>Escolher Plano</option>
+	<option>Free</option>
+	<option>Premium</option>
+	<option>Pro</option>
+</select>
+<button type="submit">Enviar</button>
+
+index.html/plano=premiun
+plano- select name
+premium- option value
+
+
+
+TEXTAREA:
+
+Serve para fornecer um campo de texto mais abrangente, com tamanho maior de palavras
+
+Dá pra aumentar manualmente o tamanho da area de texto
+
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem">
+placeholder="Digite sua mensagem" cols="30" rows="5" name="mensagem"
+</textarea>
+
+Atributo COLS = Colunas tamanho
+ROWS = Linhas tamanho
+Renderizar tamanho da caixa de mensagem
+
+Posso deixar um texto dentro do textarea e ele deixa escrito dentro da caixa de mensagem, caso a pessoa precise continuar a partir daquele ponto
+
+
+
+
+

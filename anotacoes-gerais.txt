@@ -1,0 +1,47 @@
+FERRAMENTA PARA TIRAR DÚVIDAS:
+- Stack Overflow Developer Survey (https://survey.stackoverflow.co)
+
+CANVAS: Onde disponibilizará o curso
+SLACK: Forma de comunicação
+ZOOM: Demonstração e aulas ao vivo
+
+Perguntar no SLACK: /pergunta + pergunta abreviada (após enviar abrirá uma caixa extra onde farei a pergunta detalhada (seg-sex das 11h-21h)
+
+
+
+TIPOS DE PROGRAMAÇÃO
+
+FRONT-END: Toda parte visual
+BACK-END: Parte que não visualizamos
+FULLSTACK: Todas as modalidades
+
+
+
+HTML: Informações da página, não é linguagem de programação
+CSS: Estilização da página
+JAVASCRIPT: Linguagem diferente, serve para programação, serve para funcionalidades, interações
+GIT: Ferramenta importante, serve pra não precisar salvar em arquivos separados, sem ele vira uma bagunça na sua máquina
+
+
+
+REACT.JS: Organização de códigos e facilidades 
+SQL: Utilizado para banco de dados
+NODE.JS: Utilizado no BACK-END
+GITHUB: Deixar seus projetos públicos
+
+
+
+SPRINT: Termo de semana
+
+
+
+VISUAL STUDIO CODE: Editor de textos
+
+- Criar pasta principal
+
+- Criar subpastas
+
+- Abrir pasta dentro do VISUAL CODE
+
+
+

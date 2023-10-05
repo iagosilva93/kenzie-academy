@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Formulários e Inputs</title>
+  </head>
+
+  <body>
+    <form action="./">
+        <fieldset>
+            <legend>
+                Cadastro de Usuário
+            </legend>
+
+            <div>
+                <label for="input_email">
+                    E-mail:
+                </label>
+    
+                <input type="email" placeholder="Digite seu e-mail..." id="input_email" required name="email">
+            </div>
+
+            <div>
+                <label for="input_pass">
+                    Senha:
+                </label>
+    
+                <input type="password" placeholder="Digite sua senha..." id="input_pass" required name="senha">
+            </div>
+
+            <div>
+                <label for="input_color">
+                    Cor preferida:
+                </label>
+    
+                <input type="color" id="input_color" name="cor">
+            </div>
+
+            <section>
+                <p>
+                    Selecione sua turma:
+                </p>
+
+                <div>
+                    <label for="input_radio_t19">
+                        T19
+                    </label>
+
+                    <input type="radio" id="input_radio_t19" value="t19" name="t19">
+                </div>
+
+                <div>
+                    <label for="input_radio_t20">
+                        T20
+                    </label>
+
+                    <input type="radio" id="input_radio_t20" value="t20" name="t20">
+                </div>
+
+                <div>
+                    <label for="input_radio_t21">
+                        T21
+                    </label>
+
+                    <input type="radio" id="input_radio_t21" value="t21" name="t21">
+                </div>
+            </section>
+
+            <section>
+                <label for="select_instructor">
+                    Selecione o instrutor:
+                </label>
+
+                <select id="select_instructor" name="instrutor">
+                    <option value="">
+                        Escolha o instrutor
+                    </option>
+
+                    <option value="alex-sakaki" name="alex-sakaki">
+                        Alex Sakaki
+                    </option>
+
+                    <option value="thiago-koman" name="thiago-koman">
+                        Thiago Koman
+                    </option>
+
+                    <option value="lorena-x" name="lorena-x">
+                        Lorena X
+                    </option>
+                </select>
+            </section>
+
+            <div>
+                <label for="input_description">
+                    Fale sobre você:
+                </label>
+            </div>
+
+            <div>
+                <textarea id="input_description" cols="30" rows="10" placeholder="Conte um pouco da sua história..." name="sobre"></textarea>
+            </div>
+
+            <input type="submit" value="Cadastrar">
+        </fieldset>
+    </form>
+  </body>
+</html>

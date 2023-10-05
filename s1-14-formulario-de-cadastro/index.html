@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Kenzie Academy</title>
+</head>
+<body>
+
+    <form>
+        <div>
+        <label for="nome">
+            Nome
+        </label>
+        </div>
+
+        <div>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui..." required>
+        </div>
+
+        <div>
+            <label for="email">
+                E-mail
+            </label>
+        </div>
+
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui..." required>
+
+        <div>
+        <label for="mensagem">
+            O que te motivou a participar do evento?
+        </label>
+        </div>
+
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Descreva aqui..." required></textarea>
+        
+        <div>
+        <label for="modulo">
+            Selecione um Módulo
+        </label>
+        </div>
+
+        <select name="modulo" id="modulo" required>
+        <option value="" id="modulo-1">
+            Escolha um Módulo
+        </option>
+        <option value="modulo1" id="modulo1" name="modulo1">
+            Módulo 1
+        </option>
+        <option value="modulo2" id="modulo2" name="modulo2">
+            Módulo 2
+        </option>
+        </select>
+       
+        <div>
+        <label for="senha">
+            Cadastre uma senha
+        </label>
+        </div>
+
+        <input type="password" id="password" name="password" placeholder="Digite sua senha aqui..." required>
+
+        <div>
+            <label for="confirmarsenha">
+                Confirmar senha
+            </label>
+        </div>
+
+        <input type="password" id="senhaconfirmar" name="senhaconfirmar" placeholder="Confirme sua senha aqui..." required>
+
+        <div>
+        <label for="novidades-por-email">
+            Deseja receber novidades por e-mail?
+        </label>
+        </div>
+
+        <input type="radio" name="novidades-por-email" value="sim" required>Sim
+        <input type="radio" name="novidades-por-email" value="nao" required>Não
+
+        <div>
+        <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>
