@@ -17,3 +17,18 @@ EXISTE INTERNO E EXTERNO:
 
 EXTERNO: Mais comum, feito fora do código html, de forma externa
 
+
+
+FAZER LIGACAO DO HTML COM O CSS:
+
+* Dentro de head
+
+* TAG link href = .css
+
+
+***color = cor
+***border = borda
+***border-bottom = borda embaixo
+***font-size = tamanho da fonte
+***background-color = cor de fundo
+
