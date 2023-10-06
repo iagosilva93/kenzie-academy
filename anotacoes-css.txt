@@ -32,3 +32,33 @@ FAZER LIGACAO DO HTML COM O CSS:
 ***font-size = tamanho da fonte
 ***background-color = cor de fundo
 
+
+
+
+SELETOR CSS
+
+Padrao usado para selecionar HTML que queremos estilizar
+
+- Seletor de Elemento
+h2 {
+color: red;
+} (pega todo h2 que tiver no código e pinta de vermelho)
+
+- Seletor de Classe
+.box {
+background-color: green;
+} (so o que selecionar, usando o .)
+(podemos usar para um grupo, todos os elementos box ficariam verde)
+
+- Seletor de ID
+#main-title {
+color: blue;
+} (somente o que eu selecionei o título)
+
+- Seletor Universal
+* {
+color: gray;
+} (todas as estilizacoes do css)
+
+
+
