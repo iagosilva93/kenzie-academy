@@ -49,16 +49,19 @@ color: red;
 background-color: green;
 } (so o que selecionar, usando o .)
 (podemos usar para um grupo, todos os elementos box ficariam verde)
+usar o class=""
 
 - Seletor de ID
 #main-title {
 color: blue;
 } (somente o que eu selecionei o título)
+adicionar o id=""
 
 - Seletor Universal
 * {
 color: gray;
 } (todas as estilizacoes do css)
+
 
 
 
