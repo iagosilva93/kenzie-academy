@@ -1,0 +1,19 @@
+		::CSS::
+
+Cascading
+Style
+Sheet
+(Folha de Estilo em Cascata)
+
+CSS é utilizado para estilizar elementos criados com uma linguagem de marcação, como o HTML
+
+É a camada da personalização do conteúdo visível
+
+Ele oferece melhorias visuais como cores, fontes, espaçamentos e posicionamento de elementos. Deixando sua página esteticamente agradavel, facilitando a navegacao
+
+
+
+EXISTE INTERNO E EXTERNO:
+
+EXTERNO: Mais comum, feito fora do código html, de forma externa
+

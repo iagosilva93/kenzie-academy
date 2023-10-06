@@ -45,3 +45,38 @@ VISUAL STUDIO CODE: Editor de textos
 
 
 
+
+ENTREGA DE TRABALHOS KENZIE:
+
+Cada entrega é um conjunto de tarefas
+
+*Abra o link que consta na tarefa (envia você vai bithub)
+
+*Gerar repositorio da entrega (no botao use this template>new repository)
+
+*nome do repositorio esta em cima no include+usarname
+"m1-p1..."
+Clica em criar repositorio
+
+*Vá em Setting>colaborators e teams>loga a senha>add teams>digite m1 e selecione team m1 correcoes (read)
+
+*Depois vamos clonas em <>Code>-<>code>open with github desktop > escolha pasta que irá clonar e clique em Clone
+
+*No Github desktop va em Repository>Open with visual code
+
+*Para salvar alteracoes va no github e insira um commit
+
+*Fazer commit a cada tarefa realizada
+
+*Depois dar um Push (enviar)
+
+*Settings>Pages>Deixe a branch em master/main>Save
+
+*Coloque como público na mesma página Pages
+
+*Na tarefa coloque a url da nossa pagina do Pages
+
+*Nos comentarios coloque o link do repositorio
+
+*ENVIAR TAREFA
+
