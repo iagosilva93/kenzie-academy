@@ -470,5 +470,7 @@ Posso deixar um texto dentro do textarea e ele deixa escrito dentro da caixa de 
 
 
 
+div class="box" = divisao em caixa
+
 
 

@@ -64,4 +64,30 @@ color: gray;
 
 
 
+CORES NO CSS:
+
+background-color = altera o background do elemento
+color = cor do texto
+opacity = opacidade do texto
+
+
+*Podemos fazer pelo nome da cor em ingles ou hexadecimal
+
+Hexadecimal = #000000 (6 numeros)
+*2 primeiros digitos representam vermelho
+*2 digitos no meio representam o verde
+*ultimos 2 digitos representam o azul
+
+***Utilize o site da adobe na parte de color para ver boas cores para utilizar***
+
+
+Formato RGB:
+
+rgb(0,0,255) (azul)
+
+
+Formato RGBA: (opacidade) tem um 4o valor para tonalidade
+
+rgba(0,0,0,0) (preto)
+
 
