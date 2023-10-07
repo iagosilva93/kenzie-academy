@@ -91,3 +91,26 @@ Formato RGBA: (opacidade) tem um 4o valor para tonalidade
 rgba(0,0,0,0) (preto)
 
 
+
+
+TRABALHANDO COM TEXTOS:
+
+
+-TAMANHO (font-size)
+
+-DISTANCIA ENTRE LINHAS (line-height)
+
+-ESPESSURA OU PESO (font-weight)
+
+-COR (color)
+
+-FAMILIA (font-family:"")
+
+
+
+width = quebra o texto em tamanho por pixel
+
+
+
+
+
