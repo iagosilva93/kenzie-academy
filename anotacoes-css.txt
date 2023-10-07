@@ -110,6 +110,12 @@ TRABALHANDO COM TEXTOS:
 
 width = quebra o texto em tamanho por pixel
 
+text-align+center = texto fica no centro
+
+text-align+justigy = justificar texto
+
+
+
 
 
 
