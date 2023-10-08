@@ -117,6 +117,23 @@ text-align+justigy = justificar texto
 
 
 
+RESET CSS:
+
+estabelece um padrao consistente na aparencia dos elementos HTML em diferentes navegadores
+
+quando um nevegador exibe uma pagina ele aplica proprias configuracoes aos estilos HTML que podem ter variacoes na aparencia entre navegadores
+
+ele faz voce economizar tempo e esforco durante o desenvolvimento do site
+
+
+RESET CSS 2.0 = uma das versoes mais populares e utilizadas por desenvolvedores web por oferecer uma base solida para construir estilos personalizados, sem comprometer a acessbilidade e usabilidade
+
+podemos aplicar nossos proprios estilos com facilidade, economizando tempo e esforco
+
+
+*****SEMPRE FACA O LINK DO RESET.CSS ANTES DO STYLE.CSS*****
+
+
 
 
 
