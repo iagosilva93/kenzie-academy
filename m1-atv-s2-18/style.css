@@ -1,0 +1,59 @@
+* {
+    font-family: Bree Serif, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.p1{
+    font-size: 12px;
+}
+
+.p2{
+    font-size: 20px;
+}
+
+.pessoa-desenvolvedora{
+    color: blue;
+}
+
+.p3{
+    font-size: 12px;
+}
+
+.p4{
+    background-color: blue;
+    margin: 0;
+    max-width: 800px;
+    max-height: 300px;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.oferecidos{
+    color: blue;
+}
+
+.li{
+    font-size: 12px;
+    text-decoration: underline
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    max-width: 800px;
+}
