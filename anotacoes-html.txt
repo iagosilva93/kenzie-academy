@@ -474,3 +474,18 @@ div class="box" = divisao em caixa
 
 
 
+ELEMENTOS DE BLOCO E LINNHA:
+
+o elemento <html> é o o acestral de todos os elementos da pagina
+
+e todos os outros sao decendentes do html
+
+
+
+-NIVEL DE BLOCO
+<h1>-<h6>; <p>; <div>; <ul>; <ol>; <form> etc
+
+-EM LINHA
+<em>; <strong>; <cite>; <span>; <a>; <img> etc
+
+(nao podemos casar niveis de bloco com niveis em linha)

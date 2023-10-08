@@ -137,3 +137,132 @@ podemos aplicar nossos proprios estilos com facilidade, economizando tempo e esf
 
 
 
+
+BOX MODEL:
+
+caixa retangular
+
+
+CAMADAS BOX MODEL:
+
+- conteudo (content) = conteudo em si (texto, img, gif): pode definir um tamanho exato
+
+- preenchimento (padding) = em volta do conteudo: temos que add ele no css (tamanhos diferentes para cada lado)
+
+- borda (border) = bordas onde quiser
+
+- margem (margin) = distancia entre os elementos HTML
+
+
+***box-sizing*** = permite alterar as regras para o culculo do tamanho
+(o valor padrao 'content-box' so leva o conteudo interno em conta)
+
+***box-sizing: border-box*** = as coisas se comportam de maneira muito mais intuitiva
+o border-box considera todos os parametros e deixam no limite que voce determinar de px
+
+content-box = calculado pelo conteudo interno, ele se adequa ao tamanho (usando box-sizing)
+ele nao considera os parametros entao vai somando todos eles e saem do tamanho desejado que voce quer
+
+
+
+HEIGHT E WIDTH:
+
+sao propriedades que especificam a altura e largura de um elemento
+
+
+
+MAX-HEIGHT E MAX-WIDTH:
+
+definem altura e largura maxima permitidas para um elemento (se as dimensoes ultrapassarem esses valores ele sera redimensionado para se ajustar)
+
+
+MIN-HEIGHT E MIN-WIDTH:
+
+definem a altura e largura minima permitidas para um elemento (se as dimensoes foram menores que esses valores ele sera redimensionado para se ajustar)
+
+
+
+MARGIN, PADDING E BORDER:
+
+*CONTENT: é o valor do elemento e o que esta contido dentro das tags
+
+ele é o valor do elemento que voce criou
+
+(numa caixa de sapato o conteudo é o sapato)
+
+<p>
+Kenzie (conteudo)
+</p>
+
+margin-top = topo
+margin-right = direita
+margin-bottom = baixo
+margin-left = esquerda
+
+
+
+*PADDING: é o valor de preenchimento. é a distancia do conteudo ate a borda
+
+(numa caixa de sapato temos um preenchimento de papel para alocar o sapato)
+
+<p>
+Kenzie (imagine um quadro em volta do kenzie, ele é o padding)
+</p>
+
+padding-top = topo
+padding-right = direita
+padding-bottom = baixo
+padding-left = esquerda
+
+
+*BORDER: é o limite que separa o preenchimento da margem. faz funcao de borda mesmo
+
+(numa caixa de sapato, a propria caixa de papelao seria a borda)
+
+<p>
+Kenzie (é a borda da caixa padding que tem dentro o conteudo kenzie)
+</p>
+
+border-radius = arredonda a borda (PODE SER USADO MESMO NAO USANDO BORDAS)
+border: none = anula a borda
+border-widht = largura da borda
+(para deixar somente um lado mais grosso: "border-top-width:")
+border-style = estilo da borda (mais usada é solid)
+border-color = cor da borda
+border = borda total
+
+border-top = topo
+border-right = direita
+border-bottom = baixo
+border-left = esquerda
+
+
+
+
+
+*MARGIN: é o valor externo a borda do elemento. responsavel pela separacao entre um elemento e outro
+
+distancia entre um elemento e outro
+
+(imagine uma piscina, a margem é o que separa a piscina e a grama)
+
+<p>
+Kenzie
+</p>
+(MARGEM)
+<p>
+Kenzie
+</p>
+
+
+BOX SIZING:
+
+
+
+
+
+
+
+
+
+
