@@ -256,12 +256,46 @@ Kenzie
 
 
 
+UNIDADES DE MEDIDAS:
+
+ tipos de medidas: (25  tipos)
+
+ABSOLUTAS = unidades de medida definidas pela fisica, como pixel, cm, m, etc
+nao mudam conforme as especificacoes do dispositivo (sao estaticas)
+elas tem o mesmo tamanho, independente do elemento pai ou do tamanho da janela (se diminuir a janela nao altera o tamanho do texto, sendo preciso rolar a barra para visualizar tudo 'inclusive em dispositivos moveis e computador')
+*cm (centimeters)
+*mm (milimeters)
+*in polegadas (inches)
+*px pixels
+
+pixel é muito mais popular para as telas
+cm, mm e polegadas sao mais comum para impressao
+
+RELATIVAS = calculadas como base outro elemento ou unidade de medida definida
+sao ajustadas conforme o comportamento da tela e com base nas definicoes realizadas
+sao flexiveis
 
 
+PIXEL = é um ponto na tela
+como ele é absoluta o seu valor é fixo (1 pt na tela é 1pt na tela, independente da tela)
 
 
+REM = é uma unidade de medida relativa (depende de outro elemento)
+é relativo ao font size definido no root (raiz)
+
+EM = unidade de medida relativa
+ele é relativo ao font size definido no elemento pai
 
 
+PERCENTAGEM = relativa
+depende de outro elemento ou unidade de medida
+0% é definido relativo ao tamanho do pai do elemento
+(ao diminuir o tamanho da tela é possivel ver as letras se reorganizando dentro do menor espaco)
+% geralmente é mais apropriado para propriedades relacionadas ao layout, como largura, do que para o tamanho da fonte
 
+VW = relativa, é definido relativo ao tamanho da view, janela
+0 vw define o comprimento do elemento e cada unidade corresponde a 1% da janela
 
+VH = relativa, definido relativo ao tamanho da view, janela
+0 vh define altura do elemento e cada unidade corresponde a 1% da janela
 
